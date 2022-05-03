@@ -1,0 +1,12 @@
+//PROVA EXTENSIO Menysmenys (--)
+//Donat un valor, ens retorna els valors des de valor fins a 0 fent servir un WHILE on la variable de control es decrementada amb --
+//RESULTAT: Si introduim 100, ens ha de retornar valors des de 100 fins al 0
+
+
+PROC main() IS
+    >> valor
+    WHILE valor >= 0 DO
+        << valor
+        valor--
+    END
+END

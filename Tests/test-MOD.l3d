@@ -1,0 +1,13 @@
+//PROVA EXTENSIO MOD
+//Donat un valor, ens retorna els valors senars des de 0 fins el valor
+//RESULTAT: Si introduim 100, ens ha de retornar els valors des de 0 fins 100
+
+
+PROC main() IS
+    >> valor
+    FOR i FROM 0 TO valor DO
+        IF i%2 != 0 THEN
+            << i
+        END
+    END
+END

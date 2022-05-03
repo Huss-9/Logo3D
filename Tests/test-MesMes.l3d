@@ -1,0 +1,13 @@
+//PROVA EXTENSIO Mesmes (++)
+//Donat un valor, ens retorna els valors del 0 al valor fent servir un WHILE on la variable de control es augmentada amb ++
+//RESULTAT: Si introduim 100, ens ha de retornar valors des de 0 fins a 100
+
+
+PROC main() IS
+    >> valor
+    i := 0
+    WHILE i <= valor DO
+        << i
+        i++
+    END
+END

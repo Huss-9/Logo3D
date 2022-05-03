@@ -1,0 +1,13 @@
+//PROVA EXTENSIO NOT
+//Donat un valor, ens retorna els valors que no son mes grans que 1/4 del valor i mes petits que 3/4 del valor
+//RESULTAT: Si introduim 100, ens ha de retornar valors des de 0 fins a 25 i des de 75 fins a 100
+
+
+PROC main() IS
+    >> valor
+    FOR i FROM 0 TO valor DO
+        IF not (i > 1/4*valor and i < 3/4*valor) THEN
+            << i
+        END
+    END
+END
